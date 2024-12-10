@@ -1,0 +1,41 @@
+mona@s-chan2 ~ % mkdir git_challenge
+mona@s-chan2 ~ % cd git_challenge
+mona@s-chan2 git_challenge % git init
+Initialized empty Git repository in /Users/mona/git_challenge/.git/
+mona@s-chan2 git_challenge % git add .
+mona@s-chan2 git_challenge % git commit -m "最初のコミット"
+[main (root-commit) 4cce514] 最初のコミット
+ Committer: 中島ももな <mona@s-chan2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+mona@s-chan2 git_challenge % git add .
+mona@s-chan2 git_challenge % git commit -m "二回目のコミット"
+[main 748ffc6] 二回目のコミット
+ Committer: 中島ももな <mona@s-chan2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+mona@s-chan2 git_challenge % git log --oneline
+748ffc6 (HEAD -> main) 二回目のコミット
+4cce514 最初のコミット
+mona@s-chan2 git_challenge % 
